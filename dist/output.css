@@ -682,6 +682,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -736,6 +741,11 @@ video {
   color: hsl(0 1% 44% / var(--tw-text-opacity));
 }
 
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 .hover\:bg-Off-black:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 8% / var(--tw-bg-opacity));
@@ -744,6 +754,26 @@ video {
 @media (min-width: 640px) {
   .sm\:right-0 {
     right: 0px;
+  }
+
+  .sm\:left-8 {
+    left: 2rem;
+  }
+
+  .sm\:right-9 {
+    right: 2.25rem;
+  }
+
+  .sm\:right-20 {
+    right: 5rem;
+  }
+
+  .sm\:left-\[200px\] {
+    left: 200px;
+  }
+
+  .sm\:left-\[375px\] {
+    left: 375px;
   }
 
   .sm\:flex {
