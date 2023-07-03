@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./dist/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body class="font-poppins box-border" >
+
+ 
+  <main class="h-screen w-screen bg-Light-grey grid place-content-center">
+
+    <section class=" bg-white px-6  sm:px-12 pt-12 pb-[40px] rounded-br-[150px]  rounded-s-3xl rounded-se-3xl  ">
+
+
+      <div class="flex items-center gap-4 h-[140px] relative border-b-[2px] pb-10 mb-[30px] border-b-Light-grey sm:w-[400px]">
+
+        <div class=" flex  flex-col ">
+          <span class="pb-2 text-[12px] text-Smokey-grey ">DAY</span><input id="day" class="w-[80px] h-[50px] border border-Light-grey rounded-lg ">
+        </div>
+
+        <div class=" flex flex-col ">
+          <span class="pb-2 text-[12px] text-Smokey-grey " >MONTH</span><input id="month" class="w-[80px] pl-7 h-[50px] border border-Light-grey rounded-lg ">
+        </div>
+        
+        <div class=" flex  flex-col ">
+          <span class="pb-2 text-[12px] text-Smokey-grey ">YEAR</span><input id="year" class="w-[80px] h-[50px] border border-Light-grey rounded-lg ">
+        </div>
+
+
+        <div id="button" class="bg-Purple absolute rounded-full hover:bg-Off-black cursor-pointer w-[50px] h-[50px] left-[105px] sm:right-0  bottom-[-25px] grid place-items-center "><img  class="w-[25px] h-[25px]" src="./assets/images/icon-arrow.svg" ></div>
+
+
+      </div>
+
+
+
+      <div>
+
+        <div class="flex items-center  pt-4">
+          <span class="px-3 text-[45px] text-Purple" id="showYear" >--</span><p class="font-extrabold text-[45px] italic">years</p>
+
+        </div>
+        <div class="flex items-center">
+          <span class="px-3 text-[45px] text-Purple" id="showMonth" >--</span><p class="font-extrabold text-[45px] italic">months</p>
+
+        </div>
+        <div class="flex items-center">
+          <span class="px-3 text-[45px] text-Purple"  id="showDay" >--</span><p class="font-extrabold text-[45px] italic">days</p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+<script src="index.js" ></script>
+
+</body>
+</html>
